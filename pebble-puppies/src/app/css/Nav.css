@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+}
+
+img {
+  height: 8rem;
+  width: 12rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 3rem;
+}
+
+nav ul li {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+}
+
+.shopping--links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.register--button {
+  color: white;
+  background-color: #44bb9f;
+  padding: 0.6rem 2rem 0.6rem 2rem;
+  border-radius: 5rem;
+}
+
+.register--button:hover {
+  cursor: pointer;
+}
+/* I dont know why I have do this, but it bugs out the other div text if I dont*/
+.shoppingcart {
+  width: 2rem;
+}
+
+.shoppingcart:hover {
+  cursor: pointer;
+}
