@@ -1,0 +1,26 @@
+.hero__img {
+  background-image: url("../../../public/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  background-size: cover;
+}
+
+.hero__text__container {
+  color: white;
+  padding: 20rem 10rem 25rem;
+}
+
+.hero__h2 {
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+}
+
+.hero__h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero__button {
+  font-size: 1.2rem;
+}

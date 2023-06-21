@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
 }
+
 .navbar {
   display: flex;
   align-items: center;
@@ -9,40 +10,40 @@
   width: 95%;
 }
 
-img {
+.logo {
   height: 8rem;
   width: 12rem;
 }
 
-nav ul {
+.navlist {
   list-style-type: none;
   display: flex;
   gap: 3rem;
 }
 
-nav ul li {
+.nav__list__elements {
   font-weight: 500;
   font-size: 1.2rem;
 }
 
-nav ul li:hover {
+.nav__list__elements:hover {
   cursor: pointer;
 }
 
-.shopping--links {
+.shopping__links {
   display: flex;
   gap: 1.5rem;
   align-items: center;
 }
 
-.register--button {
+.register__button {
   color: white;
   background-color: #44bb9f;
   padding: 0.6rem 2rem 0.6rem 2rem;
   border-radius: 5rem;
 }
 
-.register--button:hover {
+.register__button:hover {
   cursor: pointer;
 }
 /* I dont know why I have do this, but it bugs out the other div text if I dont*/
